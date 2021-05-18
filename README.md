@@ -224,7 +224,7 @@ Migrating to another runtime container than Docker (to continue using kubernetes
 
 ## Resources :
 
-[![Documentation, the Terraform Documentation]](https://www.terraform.io/docs/index.html "the Terraform Documentation")
+![The Terraform Documentation](https://www.terraform.io/docs/index.html "the Terraform Documentation")
 
 [![Kubernetes Documentation Container runtimes, Kubernetes Documentation Container runtimes](images/Kubernetes-Logo.wine.png){:height="60px" width="90px"}](https://kubernetes.io/docs/setup/production-environment/container-runtimes/ "Kubernetes Documentation Container runtimes") Kubernetes Container runtimes
 
