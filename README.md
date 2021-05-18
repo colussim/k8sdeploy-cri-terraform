@@ -1,10 +1,10 @@
 # k8sdeploy-cri-terraform
 Installing Kubernetes with CRI-O on bare-metal with Terraform and kubeadm
 A few months ago Kubernetes announced the depreciation of Docker in the next version, in a previous post I explained why.
-[Kubernetes is deprecating Docker in the upcoming release.](https://techlabnews.com/2021/kubernetes-crio/){:target="_blank" }.
+[Kubernetes is deprecating Docker in the upcoming release.](https://techlabnews.com/2021/kubernetes-crio/).
 
 
-The purpose of this post is to use the work done in the post : [Installing Kubernetes on bare-metal with Terraform and kubeadm](https://techlabnews.com/2021/terraform-k8s/){:target="_blank" }
+The purpose of this post is to use the work done in the post : [Installing Kubernetes on bare-metal with Terraform and kubeadm](https://techlabnews.com/2021/terraform-k8s/)
 to install kubernetes without docker but with CRI-O and you show that it doesn't change anything the execution of Docker images.
 
 ## Prerequisites
@@ -158,11 +158,11 @@ Paste the token value :
 
 
 We can use the OpenEBS installation
-with the CSI Driver described in the previous posts ([Using HELM Chart to Deploying OpenEBS to an Kubernetes Cluster using Terraform](../terraform-openebs/index.html){:target="_blank" } and [OpenEBS CStor CSI Driver](../openebs-csi/index.html){:target="_blank" }.
+with the CSI Driver described in the previous posts ([Using HELM Chart to Deploying OpenEBS to an Kubernetes Cluster using Terraform](../terraform-openebs/index.html) and [OpenEBS CStor CSI Driver](../openebs-csi/index.html)
  ) and deploy our SQL Server instance, it will not have any change.
 
 We will deploy a SQL Server instance, to verify that it works using CRI-O.
-We will use the following yaml file: [deploy-mssql-s.yaml](https://github.com/colussim/openebsdeploy-terraform/blob/main/scripts/csi/deploy-mssql-s.yaml){:target="_blank" }
+We will use the following yaml file: [deploy-mssql-s.yaml](https://github.com/colussim/openebsdeploy-terraform/blob/main/scripts/csi/deploy-mssql-s.yaml)
 
 
 ```
@@ -224,9 +224,9 @@ Migrating to another runtime container than Docker (to continue using kubernetes
 
 ## Resources :
 
-[![Documentation, the Terraform Documentation](images/terraform.png){:height="50px" width="57px"}](https://www.terraform.io/docs/index.html "the Terraform Documentation"){:target="_blank" } Documentation
+[![Documentation, the Terraform Documentation](images/terraform.png | width=57px)](https://www.terraform.io/docs/index.html "the Terraform Documentation") Documentation
 
-[![Kubernetes Documentation Container runtimes, Kubernetes Documentation Container runtimes](images/Kubernetes-Logo.wine.png){:height="60px" width="90px"}](https://kubernetes.io/docs/setup/production-environment/container-runtimes/ "Kubernetes Documentation Container runtimes"){:target="_blank" } Kubernetes Container runtimes
+[![Kubernetes Documentation Container runtimes, Kubernetes Documentation Container runtimes](images/Kubernetes-Logo.wine.png){:height="60px" width="90px"}](https://kubernetes.io/docs/setup/production-environment/container-runtimes/ "Kubernetes Documentation Container runtimes") Kubernetes Container runtimes
 
 
-[![CRI-O Installation Instructions, CRI-O Installation Instructions](images/crio-logo.svg){:height="75px" width="82px"}](https://github.com/cri-o/cri-o/blob/master/install.md "the Terraform Documentation"){:target="_blank" } CRI-O Installation Instructions
+[![CRI-O Installation Instructions, CRI-O Installation Instructions](images/crio-logo.svg){:height="75px" width="82px"}](https://github.com/cri-o/cri-o/blob/master/install.md "the Terraform Documentation") CRI-O Installation Instructions
