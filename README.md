@@ -29,7 +29,7 @@ Clone the repository and install the dependencies:
 ```
 
 $ git clone https://github.com/colussim/k8sdeploy-cri-terraform.git
-$ cd k8sdeploy
+$ cd k8sdeploy-cri-terraform
 $ terraform init
 
 
