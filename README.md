@@ -226,7 +226,7 @@ Migrating to another runtime container than Docker (to continue using kubernetes
 
 ![The Terraform Documentation](https://www.terraform.io/docs/index.html "the Terraform Documentation")
 
-[![Kubernetes Documentation Container runtimes, Kubernetes Documentation Container runtimes](images/Kubernetes-Logo.wine.png){:height="60px" width="90px"}](https://kubernetes.io/docs/setup/production-environment/container-runtimes/ "Kubernetes Documentation Container runtimes") Kubernetes Container runtimes
+![Kubernetes Documentation Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/ "Kubernetes Documentation Container runtimes")
 
 
-[![CRI-O Installation Instructions, CRI-O Installation Instructions](images/crio-logo.svg){:height="75px" width="82px"}](https://github.com/cri-o/cri-o/blob/master/install.md "the Terraform Documentation") CRI-O Installation Instructions
+![CRI-O Installation Instructions](https://github.com/cri-o/cri-o/blob/master/install.md "the Terraform Documentation")
