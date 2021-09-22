@@ -1,10 +1,10 @@
 # k8sdeploy-cri-terraform
 Installing Kubernetes with CRI-O on bare-metal with Terraform and kubeadm
 A few months ago Kubernetes announced the depreciation of Docker in the next version, in a previous post I explained why.
-[Kubernetes is deprecating Docker in the upcoming release.](https://techlabnews.com/2021/kubernetes-crio/).
+[Kubernetes is deprecating Docker in the upcoming release.](https://techlabnews.com/kubernetes-crio/).
 
 
-The purpose of this post is to use the work done in the post : [Installing Kubernetes on bare-metal with Terraform and kubeadm](https://techlabnews.com/2021/terraform-k8s/)
+The purpose of this post is to use the work done in the post : [Installing Kubernetes on bare-metal with Terraform and kubeadm](https://techlabnews.com/terraform-k8s/)
 to install kubernetes without docker but with CRI-O and you show that it doesn't change anything the execution of Docker images.
 
 ## Prerequisites
