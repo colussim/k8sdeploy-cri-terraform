@@ -1,3 +1,5 @@
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
 # k8sdeploy-cri-terraform
 Installing Kubernetes with CRI-O on bare-metal with Terraform and kubeadm
 A few months ago Kubernetes announced the depreciation of Docker in the next version, in a previous post I explained why.
